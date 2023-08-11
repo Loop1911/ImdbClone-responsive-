@@ -1,7 +1,7 @@
 require("dotenv").config();
 require("./dbConnect");
 const mongoose = require("mongoose");
-const movie = require("./models/Movie");
+const movie = require("./Models/Movie");
 const express = require("express");
 
 const cors = require("cors")  ;  

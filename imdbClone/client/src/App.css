@@ -1,0 +1,50 @@
+/* Common styles for all screen sizes */
+.wrapper {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	width: 100%;
+	height: 100%;	
+	max-width: 1000px; /* Set a max-width to ensure it doesn't exceed a certain size */
+
+	box-shadow: var(--box-shadow);
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background-color: rgb(199, 193, 193);
+}
+
+.head {
+	display: flex;
+	align-content: center;
+	height: 60px; /* Adjust height for smaller screens */
+	background-color: black;
+	justify-content: space-between;
+	padding: 0 15px; /* Add some padding to the sides */
+}
+
+.logo {
+	width: 80px; /* Adjust logo width for smaller screens */
+	object-fit: contain;
+	margin: 10px 0;
+}
+
+.body {
+	
+	flex-direction: column; /* For smaller screens, stack content vertically */
+}
+
+.table_container {
+	height : 550px;
+	width: 100%; /* Full width for smaller screens */
+}
+
+.filter_container {
+	width: 100%; /* Full width for smaller screens */
+	margin-top: 10px; /* Add some spacing between the sections */
+}
